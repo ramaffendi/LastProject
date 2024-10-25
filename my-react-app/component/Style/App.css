@@ -1,0 +1,10 @@
+
+.content-container {
+    display: flex;
+    align-items: flex-start; /* Membuat item sejajar di bagian atas */
+    gap: 40px; /* Jarak antar kategori dan produk */
+    padding: 30px;
+    
+  }
+ 
+ 

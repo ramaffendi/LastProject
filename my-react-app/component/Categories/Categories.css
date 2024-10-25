@@ -1,0 +1,43 @@
+.box-category {
+  padding: 0px;
+  margin-top: 30px;
+  font-family: cursive;
+  margin-bottom: 20px; /* Jarak bawah untuk kategori */
+}
+
+.box-category h2 {
+  margin-bottom: 10px; /* Jarak bawah untuk judul */
+}
+
+/* Gaya untuk daftar kategori */
+.box-category ul {
+  list-style-type: none; /* Menghilangkan bullet point */
+  padding: 0; /* Menghilangkan padding default */
+}
+
+/* Gaya untuk setiap kategori */
+.box-category li { /* Menambahkan gaya tombol untuk .btn-all */
+  background-color: #007bff; /* Warna latar belakang tombol */
+  color: white; /* Warna teks */
+  padding: 10px 15px; /* Padding di dalam tombol */
+  border-radius: 5px; /* Sudut membulat */
+  cursor: pointer; /* Menunjukkan bahwa ini bisa diklik */
+  margin-bottom: 10px; /* Jarak bawah antar tombol */
+  transition: background-color 0.3s; /* Transisi halus untuk perubahan warna */
+}
+
+/* Gaya saat hover */
+.box-category li:hover,
+.btn-all:hover { /* Tambahkan efek hover untuk .btn-all */
+  background-color: #0056b3; /* Warna saat hover */
+}
+
+.btn-all {
+  background-color: #007bff; /* Warna latar belakang tombol */
+  color: white; /* Warna teks */
+  padding: 10px 23px; /* Padding di dalam tombol */
+  border-radius: 5px; /* Sudut membulat */
+  cursor: pointer; /* Menunjukkan bahwa ini bisa diklik */
+  margin-bottom: 0px; /* Jarak bawah antar tombol */
+   
+}

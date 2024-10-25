@@ -1,0 +1,132 @@
+.list-group {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+.list-group :hover {
+  background-color: #555555;
+  color: white;
+}
+
+.sign-up-container-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url("../../src/pattern.jpg");
+  filter: blur(0px);
+  z-index: -1;
+  
+}
+
+.sign-up-container-forgot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url("../../src/pattern.jpg");
+  backdrop-filter: blur(10px);
+}
+
+.sign-up-container-signup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url("../../src/pattern.jpg");
+  backdrop-filter: blur(10px);
+}
+
+.sign-up-container-reset {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url("../../src/pattern.jpg");
+  backdrop-filter: blur(10px);
+}
+
+.sign-up-form {
+  background-color: white;
+}
+
+.sign-up-form h2{
+  font-family: cursive;
+}
+
+.sign-up-form {
+  width: 300px;
+  padding: 20px;
+  border: 1px solid hsl(0, 0%, 0%);
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-family: cursive;
+}
+
+input {
+  padding: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}
+
+.forgot {
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(30, 144, 255); /* Warna khusus untuk tombol 1 */
+  color: #ffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.forgot:hover {
+  background-color: #1e90ff; /* Efek hover untuk tombol 1 */
+}
+
+.login {
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(255, 99, 71); /* Warna khusus untuk tombol 2 */
+  color: #ffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.login:hover {
+  background-color: #ff4500; /* Efek hover untuk tombol 2 */
+}
+
+.reset {
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(60, 179, 113); /* Warna khusus untuk tombol 3 */
+  color: #ffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.reset:hover {
+  background-color: #3cb371; /* Efek hover untuk tombol 3 */
+}
+
+.signup {
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(51, 50, 47); /* Warna khusus untuk tombol 4 */
+  color: #ffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.signup:hover {
+  background-color: #5a584f; /* Efek hover untuk tombol 4 */
+}

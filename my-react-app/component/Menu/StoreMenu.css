@@ -1,0 +1,104 @@
+.list-product ul {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* 5 kolom dengan ukuran sama */
+  gap: 10px; /* Jarak antar item */
+  list-style-type: none;
+  padding: 0;
+}
+
+.list-product li {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  background-color: #fff;
+  text-align: center;
+  padding: 10px; /* Padding dalam kotak produk */
+  display: flex;
+  flex-direction: column; /* Mengatur elemen menjadi kolom */
+  justify-content: space-between; /* Memastikan konten terdistribusi dengan baik */
+}
+
+.list-product img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Pastikan harga berada di bawah gambar */
+.price {
+  margin-top: auto; /* Menggunakan auto untuk memaksa harga berada di bawah */
+  font-weight: bold; /* Membuat harga lebih tebal */
+  color: #333; /* Warna untuk teks harga */
+}
+
+/* Responsif: Layar kecil */
+@media (max-width: 768px) {
+  .list-product ul {
+    grid-template-columns: repeat(2, 1fr); /* 2 kolom di layar kecil */
+  }
+}
+
+@media (max-width: 480px) {
+  .list-product ul {
+    grid-template-columns: 2fr; /* 1 kolom di layar sangat kecil */
+  }
+}
+
+.box-product {
+  text-align: center; /* Memusatkan konten dalam box */
+  margin: 10px; /* Jarak antar box */
+  font-family: cursive;
+}
+
+/* Untuk memastikan h1 tetap terlihat bagus */
+.product-title {
+  font-size: 2rem; /* Ukuran font */
+  margin-bottom: 20px; /* Jarak antara judul dan daftar produk */
+}
+
+.pagination {
+  display: flex;
+  justify-content: center; /* Center align pagination buttons */
+  margin-top: 20px; /* Jarak atas untuk pagination */
+}
+
+.pagination button {
+  background-color: #007bff; /* Warna latar belakang tombol */
+  color: white; /* Warna teks */
+  border: none; /* Menghilangkan border default */
+  padding: 10px 15px; /* Padding dalam tombol */
+  margin: 0 5px; /* Jarak horizontal antar tombol */
+  border-radius: 5px; /* Sudut membulat */
+  cursor: pointer; /* Pointer saat hover */
+  transition: background-color 0.3s, transform 0.2s; /* Transisi halus */
+}
+
+.pagination button:hover {
+  background-color: #0056b3; /* Warna saat hover */
+  transform: scale(1.05); /* Sedikit memperbesar saat hover */
+}
+
+.pagination button:disabled {
+  background-color: #cccccc; /* Warna latar belakang untuk tombol yang dinonaktifkan */
+  cursor: not-allowed; /* Menunjukkan bahwa tombol tidak bisa diklik */
+}
+
+.product-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.add-button {
+  background-color: #405398;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-button:hover {
+  background-color: #100225;
+}
